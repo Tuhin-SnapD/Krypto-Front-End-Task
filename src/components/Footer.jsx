@@ -69,6 +69,7 @@ import {
   const Right = styled.div`
     flex: 1;
     padding: 20px;  
+    margin-left: 20px;
   `;
   
   const ContactItem = styled.div`
@@ -87,9 +88,7 @@ import {
         <Left>
           <Logo>ShopKart.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          Vellore Institute of Technology is a private deemed university located in Katpadi in Vellore, India. Founded in 1984 as Vellore Engineering College by G. Viswanathan, the institution offers 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research and 2 M.Tech Industrial Programmes.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -106,21 +105,7 @@ import {
             </SocialIcon>
           </SocialContainer>
         </Left>
-        <Center>
-          <Title>Useful Links</Title>
-          <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
-          </List>
-        </Center>
+        
         <Right>
           <Title>Contact</Title>
           <ContactItem>

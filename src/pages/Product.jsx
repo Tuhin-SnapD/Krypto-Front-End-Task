@@ -2,7 +2,7 @@ import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-
+import { useLocation } from "react-router-dom";
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -113,10 +113,10 @@ const Product = () => {
       <Navbar />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="https://i.pinimg.com/originals/25/0d/a3/250da32c889b624849bf828ae2ece420.jpg" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Denim Jumpsuit</Title>
+          <Title>EYEBOGLER Regular Fit Men's Cotton T-Shirt</Title>
           <Desc>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at

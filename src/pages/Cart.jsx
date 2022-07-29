@@ -1,4 +1,5 @@
 import { Add, Remove } from "@material-ui/icons";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -155,7 +156,6 @@ const Cart = () => {
           <TopButton>CONTINUE SHOPPING</TopButton>
           <TopTexts>
             <TopText>Shopping Bag(2)</TopText>
-            <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
         </Top>
@@ -163,13 +163,13 @@ const Cart = () => {
           <Info>
             <Product>
               <ProductDetail>
-                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                <Image src="https://i.pinimg.com/564x/7f/c0/84/7fc084dbec9b6c0ce19ab73b25bcba7f.jpg"/>
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Product:</b> Yellow Hoodie
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 9323864
                   </ProductId>
                   <ProductColor color="black" />
                   <ProductSize>
@@ -183,19 +183,19 @@ const Cart = () => {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>₹400</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
             <Product>
               <ProductDetail>
-                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                <Image src="https://i.pinimg.com/564x/b9/83/a7/b983a7e4e9a4a05ee8ae8333f1c7b2d8.jpg" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> HAKURA T-SHIRT
+                    <b>Product:</b> Rock T-Shirt
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 937435
                   </ProductId>
                   <ProductColor color="gray" />
                   <ProductSize>
@@ -209,7 +209,7 @@ const Cart = () => {
                   <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 20</ProductPrice>
+                <ProductPrice>₹ 400</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
@@ -217,21 +217,21 @@ const Cart = () => {
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>₹ 800</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+              <SummaryItemPrice>₹ 100</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+              <SummaryItemPrice>₹ -90</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem type="total">
               <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>₹ 810</SummaryItemPrice>
             </SummaryItem>
-            <Button>CHECKOUT NOW</Button>
+            <Button><NavLink style={{ textDecoration: 'none' , color: 'white' }} to="/checkout">Place Order</NavLink></Button>
           </Summary>
         </Bottom>
       </Wrapper>

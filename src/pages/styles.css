@@ -1,0 +1,102 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #2596be;
+    border: 1px solid #434343;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #2596be;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+ 
+
+  h1{
+    font-size:4em;
+    letter-spacing:3px;
+    color:#5892FF ;
+    margin:0;
+    margin-bottom:20px;
+  }
+
+  .go-home{
+    color:#fff;
+    /* background:#5892FF; */
+    border:none;
+    padding:10px 50px;
+    margin:30px 0;
+    border-radius:30px;
+    text-transform:capitalize;
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+  }
+  .footer-like{
+    margin-top: auto; 
+    background:#D7E6FE;
+    padding:6px;
+    text-align:center;
+  }
+  .footer-like p{
+    margin:0;
+    padding:4px;
+    /* color:#5892FF; */
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
+  }
+  .footer-like p a{
+    text-decoration:none;
+    /* color:#5892FF; */
+    font-weight:600;
+  }
