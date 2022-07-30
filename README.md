@@ -10,10 +10,19 @@ An eCommerce application was implemented, Mostly the front-end part. The CSS and
 
 ## Description of the Project
 
-- Description of all the application functionalities
+Description of all the application functionalities
 
-    
-<img width="1512" alt="Screenshot 2022-07-24 at 10 45 58 AM" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/login.png">
+- Login
+In order to be able to logged in securely. A user will have to make sure he is required to give correct username and password.
+
+    Sample Username: user1 
+    Sample Password: pass1
+
+<img width="1512" alt="Login" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/login.png">
+
+- Display of products
+
+<img width="1512" alt="Login" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Landing.png">
 
 ## Improvements Possible
 - Are there any improvements I could make to your submission?
