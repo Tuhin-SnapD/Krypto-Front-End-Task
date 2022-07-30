@@ -52,6 +52,7 @@ The closing page of the website, after payment is done, the page thanks and lets
 
 ## Improvements Possible
 - Are there any improvements I could make to my submission?
+
 -JWT 
 
 JWT authentication is a token-based stateless authentication mechanism. Server wouldn't need to completely rely on a data store
@@ -69,6 +70,7 @@ Permissions and Admin Permission/access, making the website more secur/safe and 
 Smoother UI-Ux with animation, salient features like "Stock Left" etc can be added in this web application.
 ## No Time limit Solution 
 - What would you do differently if I were allocated more time?
+
 -Functional Cart
 
 User could add and remove products in real time, and the total amount would e generated as per the cart, and its items.
