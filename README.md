@@ -15,25 +15,32 @@ Description of all the application functionalities
 - Login
 In order to be able to logged in securely. A user will have to make sure he is required to give correct username and password.
 
-    Sample Username: user1 
-    Sample Password: pass1
+    `Sample Username: user1 
+    Sample Password: pass1`
 
 <img width="1512" alt="Login" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/login.png">
 
 - Display of products
+The Landing page is a grid of products, the images and all the information are populated by the `db.json` provided in the boiler plate.
 
 <img width="1512" alt="Landing" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Landing.png">
 
 - Registration
+There is a link in the Registration page that takes you to a registration page, where certain credentials are asked. A new user is registered
+
 <img width="1512" alt="Registration" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Register.png">
 
 - Single Product Display
+Clicking on the Title of the Product takes you to a new page where only 1 product, with description and various other info about the product is seen.
+
 <img width="1512" alt="Product" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Product.png">
 
 - Cart
+The Cart on the right top corner side of the screen takes you to the cart. Where your products would be visible.
 <img width="1512" alt="Cart" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Cart.png">
 
 - Successful Payment
+The closing page of the website, after payment is done, the page thanks and lets you go bck to the landing page.
 <img width="1512" alt="Thank" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Thank.png">
 
 ## Improvements Possible
@@ -58,6 +65,5 @@ The user of this react application should be able to view all the products. The 
 - `npm run server` - To start the JSON server
 - `npm start` - To start the react app
 
-## Link
-https://dpwmzi.csb.app/
+## Link https://dpwmzi.csb.app/
 ---
