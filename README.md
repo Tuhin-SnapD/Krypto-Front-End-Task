@@ -22,7 +22,19 @@ In order to be able to logged in securely. A user will have to make sure he is r
 
 - Display of products
 
-<img width="1512" alt="Login" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Landing.png">
+<img width="1512" alt="Landing" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Landing.png">
+
+- Registration
+<img width="1512" alt="Registration" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Register.png">
+
+- Single Product Display
+<img width="1512" alt="Product" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Product.png">
+
+- Cart
+<img width="1512" alt="Cart" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Cart.png">
+
+- Successful Payment
+<img width="1512" alt="Thank" src="https://github.com/Tuhin-SnapD/Krypto-Front-End-Task/blob/main/output/Thank.png">
 
 ## Improvements Possible
 - Are there any improvements I could make to your submission?
@@ -46,7 +58,6 @@ The user of this react application should be able to view all the products. The 
 - `npm run server` - To start the JSON server
 - `npm start` - To start the react app
 
-## Screenshots
-
-
+## Link
+https://dpwmzi.csb.app/
 ---
